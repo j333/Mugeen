@@ -1165,6 +1165,7 @@
     }
     .navbar-fixed-top {
     margin-bottom: 0px;
+    border-bottom: 0;
   }
     .columna {
         float: none;
@@ -1210,8 +1211,7 @@
     padding-right: 20px;
   }
   .carousel {
-        margin-left: -20px;
-        margin-right: -20px;
+        margin: 0 -20px;
     }
     .carousel .container {
     }

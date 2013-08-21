@@ -28,20 +28,9 @@
     <link rel="shortcut icon" href="favicon.png">
 </head>
 <body>
-<!--[if lt IE 7]>
-    <p class="chromeframe">Usted esta usando un navegador <strong>obsoledto</strong>. Por favor <a href="http://browsehappy.com/">actualice su navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">active Google Chrome Frame</a> para mejorar su experiencia.</p>
-<![endif]-->
-
-<!-- Facebook-->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=270131026337349";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script><!-- fin Facebook-->
-
+    <!--[if lt IE 7]>
+        <p class="chromeframe">Usted esta usando un navegador <strong>obsoleto</strong>. Por favor <a href="http://browsehappy.com/">actualice su navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">active Google Chrome Frame</a> para mejorar su experiencia.</p>
+    <![endif]-->
     <div class="navbar navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container-fluid">
@@ -307,7 +296,7 @@
     </div>
     <!-- /.carousel -->
     <div class="container">
-    <!-- Example row of columns -->
+        <!-- Example row of columns -->
         <div class="row">
             <div class="span3">
                 <h2>Diseños Personalizados</h2>
@@ -339,24 +328,19 @@
             <div class="row">
                 <div class="span6">
                     <h4>Newsletters</h4>
-                    <p>Registra tu correo para recibir noticias y ofertas especiales</p>
+                    <p>Registra tu correo y participa de sorteos mensuales.</p>
                     <form class="form">
                         <input id="appendedInputButtons" type="text">
                         <button class="btn" type="button"><i class="icon-chevron-right"></i></button>
                     </form>
                 </div>
-                <div class="span3">
-                    <h4>Siguenos</h4>
-                    <p>
-                        <div class="fb-like" data-href="https://www.facebook.com/MugeenARG" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true" data-font="tahoma"></div>
-                    </p>
-                    <p>
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mugeen.com.ar" data-via="mugeenAR" data-lang="es">Twittear</a>
-                    </p>
-                    <p>
-                        <a href="https://twitter.com/mugeenAR" class="twitter-follow-button" data-show-count="false" data-lang="es" data-show-screen-name="false">Seguir a @mugeenAR</a>
-                    </p>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                <div class="span3 follow">
+                    <h4>Seguinos</h4>
+                    <ul>
+                        <li><div class="icon-redes icon-twitter"></div></li>
+                        <li><div class="icon-redes icon-facebook"></div></li>
+                        <li><div class="icon-redes icon-gplus"></div></li>
+                    </ul>
                 </div>
                 <div class="span3">
                     <h4>Sobre Nosotros</h4>
@@ -364,6 +348,7 @@
                         <p>Tel. (054 261) 4 224470 - 15 4151188 - ID 561* 909 | contacto@MUGEEN.com.ar</p>
                         <p>© Copyright 2012. MUGEEN®. Todos los derechos reservados</p>
                     </address>
+                    <div class="icon-redes icon-afip"></div>
                 </div>
             </div>
         </div>
@@ -375,7 +360,6 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="jquery.fittext.js"></script>
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 

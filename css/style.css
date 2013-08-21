@@ -956,7 +956,7 @@ blockquote:after {
 
 address {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-style: normal;
   line-height: 20px;
 }
@@ -1121,7 +1121,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   border: 0px;
   margin-right: -5px;
 }
@@ -3187,24 +3187,14 @@ button.close {
   line-height: 20px;
   color: #ffffff;
   text-align: center;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
   background-color: #bfbfbf;
-  border: 1px solid #bbbbbb;
-  *border: 0;
-  border-color: #c8c8c8 #c8c8c8 #a2a2a2;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  border-bottom-color: #a2a2a2;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeeeee', endColorstr='#ffc8c8c8', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  *zoom: 1;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .btn:hover,
@@ -3214,6 +3204,11 @@ button.close {
 .btn.disabled,
 .btn[disabled] {
   background-color: #e80032;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .btn:active,
@@ -4380,7 +4375,7 @@ input[type="submit"].btn.btn-mini {
   text-indent:-9999px;
   display: block;
   float: left;
-  background: url("../img/logo.png") no-repeat left top;
+  background: url("../img/img.png") no-repeat left top;
   width: 201px;
   height: 40px;
   margin: 5px 0 5px 30px;
@@ -4540,7 +4535,8 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-fixed-top {
   top: 0;
-  /* border-top: 5px solid #ffffff; */
+  border-bottom: none;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 .navbar-fixed-top .navbar-inner,
@@ -4588,6 +4584,11 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
   font-size: 11px;
   font-weight: 700;
+    -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .navbar .nav .dropdown-toggle .caret {
@@ -4596,10 +4597,14 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-color: #808080;
-text-decoration: none;
-background-color: #f2f2f2;
-/* border-top: 5px solid; */
+  color: #808080;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  -webkit-transition: 0;
+  -moz-transition: 0;
+  -o-transition: 0;
+  -ms-transition: 0;
+  transition: 0;
 }
 
 .navbar .nav > .active > a,
@@ -5169,10 +5174,10 @@ background-color: #f2f2f2;
 
 .modal.fade {
   top: -25%;
-  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
-     -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
-       -o-transition: opacity 0.3s linear, top 0.3s ease-out;
-          transition: opacity 0.3s linear, top 0.3s ease-out;
+  -webkit-transition: opacity 0.2s linear, top 0.2s ease-out;
+     -moz-transition: opacity 0.2s linear, top 0.2s ease-out;
+       -o-transition: opacity 0.2s linear, top 0.2s ease-out;
+          transition: opacity 0.2s linear, top 0.2s ease-out;
 }
 
 .modal.fade.in {
@@ -6439,12 +6444,6 @@ div.subnav-fixed {
   text-shadow: none;
   background-image: none;
   border: none;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
 }
 
 .btn.disabled {
@@ -6781,7 +6780,7 @@ body {
 }
 .footer {
   font-size: 11px;
-  padding: 10px 0;
+  padding: 10px 0 30px;
   margin-top: 70px;
   background-color: #ffffff;
 }
@@ -6792,7 +6791,6 @@ body {
 .navbar-form input, .navbar-form select, .navbar-form .btn {
   display: inline-block;
   margin-bottom: 0;
-    border: 1px solid #BFBFBF;
 }
 .navbar-form .btn:hover {
     border-color: #e80032;
@@ -6810,6 +6808,11 @@ body {
     color: #FFF;
     text-decoration: none;
     background-color: #BFBFBF;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
 }
 .dropdown-menu > .columna > li > a {
     display: block;
@@ -6819,6 +6822,11 @@ body {
     line-height: 20px;
     color: #808080;
     white-space: nowrap;
+    -webkit-transition: 0;
+    -moz-transition: 0;
+    -o-transition: 0;
+    -ms-transition: 0;
+    transition: 0;
 }
 #pedidos {
     float: right;
@@ -6909,6 +6917,46 @@ body {
     font-size: 100px;
     text-shadow: 0 0 10px #000;
 }
+.follow ul{
+  margin: 0 0 60px;
+}
+.follow li{
+  margin-right: 10px;
+  float: left;
+  list-style:none;
+}
+.icon-redes{
+  height: 34px;
+  width: 34px;
+  -webkit-transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  -moz-transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.icon-twitter{
+  background: no-repeat url(../img/img.png) 0 -74px;
+}
+.icon-twitter:hover{
+  background-position: 0 -40px;
+}
+.icon-facebook{
+  background: no-repeat url(../img/img.png) -34px -74px;
+}
+.icon-facebook:hover{
+  background-position: -34px -40px;
+}
+.icon-gplus{
+  background: no-repeat url(../img/img.png) -68px -74px;
+}
+.icon-gplus:hover{
+  background-position: -68px -40px;
+}
+.icon-afip{
+  background: no-repeat url(../img/img.png) -103px -74px;
+}
+.icon-afip:hover{
+  background-position: -103px -40px;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel {
@@ -6925,13 +6973,18 @@ body {
     height: 100%;
 }
 .carousel-control {
-    height: 80px;
-    margin-top: -40px;
-    font-size: 120px;
-    text-shadow: 0 1px 1px rgba(0,0,0,.4);
-    background-color: transparent;
-    border: 0;
-    z-index: 10;
+  height: 80px;
+  margin-top: -40px;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
 }
 .carousel .item {
     height: 500px;
