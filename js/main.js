@@ -4,6 +4,7 @@ $(document).ready(function(){
 	});
     $("#zoom").elevateZoom({
         zoomType: "lens",
+        containLensZoom : true,
         lensShape: "round",
         lensSize: 250,
         gallery: "gallery",
