@@ -220,6 +220,7 @@ body {
   line-height: 20px;
   color: #555555;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 a {
