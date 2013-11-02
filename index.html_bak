@@ -25,7 +25,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
     <!--[if lt IE 7]>
@@ -299,26 +299,22 @@
         <!-- Example row of columns -->
         <div class="row">
             <div class="span3">
-                <h2>Diseños Personalizados</h2>
+                <h3>Diseños Personalizados</h3>
                 <p>Podemos hacer realidad tu idea…
                 Desarrolla tu propio diseño, envíanos un archivo o imagen y te enviaremos la propuesta.</p>
-                <p><a class="btn" href="#">View details &raquo;</a></p>
             </div>
             <div class="span3">
-                <h2>Pedidos Telefónicos</h2>
+                <h3>Pedidos Telefónicos</h3>
                 <p>Podemos hacer realidad tu idea…
                 Desarrolla tu propio diseño, envíanos un archivo o imagen y te enviaremos la propuesta.</p>
-                <p><a class="btn" href="#">Ver más &raquo;</a></p>
             </div>
             <div class="span3">
-                <h2>Entrega en 48hs</h2>
+                <h3>Entrega en 48hs</h3>
                 <p>Podes realizar tu pedido por esta página o telefónicamente al (054 261) 422 4470 - 15 4151188 - ID 561* 909.</p>
-                <p><a class="btn" href="#">Ver más &raquo;</a></p>
             </div>
             <div class="span3">
-                <h2></i>Envios a todo el país</h2>
+                <h3></i>Envios a todo el país</h3>
                 <p>Previa confirmación de disponibilidad entregamos tu pedido en 48 horas.</p>
-                <p><a class="btn" href="#">Ver más &raquo;</a></p>
             </div>
         </div>
     </div> <!-- /container -->

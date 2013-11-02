@@ -961,7 +961,8 @@
     padding: 10px;
     margin: -10px;
   }
-  .carousel-caption {
+  h1 {
+    font-size: 35px;
   }
 }
 
@@ -1233,4 +1234,9 @@
     .carousel-caption .btn {
       font-size: 18px;
     }
+}
+@media (max-width: 400px){
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
 }
